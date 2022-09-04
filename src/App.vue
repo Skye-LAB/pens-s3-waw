@@ -1,7 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 
-import SideNav from '@/components/sideNav.vue';
+import SideNav from '@/components/sidenav/SideNav.vue';
 </script>
 
 <template>
