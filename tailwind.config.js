@@ -1,9 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
-  ],
+  content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     extend: {
       fontFamily: {
@@ -19,10 +16,32 @@ module.exports = {
           600: "#B1ACAC",
           700: "#A4A1A1",
           800: "#989595",
-          900: "#8B8A8A"
-        }
-      }
+          900: "#8B8A8A",
+        },
+        info: {
+          100: "#CBF0F4",
+          200: "#C1E9ED",
+          300: "#B7E1E6",
+          400: "#ADDADF",
+          500: "#A3D3D8",
+          600: "#98CBD0",
+          700: "#8EC4C9",
+          800: "#84BCC2",
+          900: "#7AB5BB",
+        },
+        danger: {
+          100: "#F7D9E3",
+          200: "#F7CAD9",
+          300: "#F7BBCF",
+          400: "#F6ACC5",
+          500: "#F69EBB",
+          600: "#F68FB1",
+          700: "#F680A7",
+          800: "#F5719D",
+          900: "#F56293",
+        },
+      },
     },
   },
   plugins: [],
-}
+};
